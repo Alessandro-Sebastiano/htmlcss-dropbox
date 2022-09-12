@@ -3,3 +3,146 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+:root {
+    /*colors*/
+    --light: #ffffff;
+    --dark: #000000;
+    --light-blue: #b4d0e7;
+    --blue: #0061ff;
+}
+
+
+
+body {}
+
+
+ul {
+    list-style: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+h1 {
+    font-size: 76px;
+    margin-bottom: 30px;
+}
+
+
+p {
+    margin: 20px 0;
+}
+
+
+.flex-box {
+    display: flex;
+}
+
+
+.nav {
+    height: 48px;
+    width: 100%;
+    padding: 0 20px;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: var(--light);
+}
+
+
+.logo {
+    margin-right: 20px;
+}
+
+
+
+.menu {
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+.menu-box ul {
+    align-items: center;
+}
+
+
+.menu-box ul li {
+    margin: 0 20px;
+}
+
+.menu-box ul li:hover {
+    text-decoration: underline;
+}
+
+
+
+.button {
+    background-color: var(--blue);
+    display: inline-block;
+    padding: 14px 18px;
+}
+
+
+.small-button {
+    padding: 6px 14px;
+}
+
+
+.hero {
+    margin-top: 48px;
+    background-color: var(--light-blue);
+}
+
+
+
+.hero-box {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    top: 74px;
+}
+
+
+.hero-box {
+    width: 100%;
+}
+
+.hero-box-section {
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.section {
+    width: 30%;
+}
+
+
+.hero-image {
+    width: 60%;
+}
+
+.hero-image img {
+    width: 100%;
+}
+
+
+
+.arrow {
+    font-size: 40px;
+    margin-top: 70px;
+}
