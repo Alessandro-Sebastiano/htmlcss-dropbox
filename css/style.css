@@ -352,3 +352,36 @@ p {
     width: 80%;
     padding: 40px 45px;
 }
+
+
+
+
+.cards-container {
+    width: 100%;
+    margin-top: 120px;
+}
+
+
+.cards-box {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    width: calc((100% - 180px) / 3);
+    margin: 20px 30px;
+}
+
+
+
+.card-image {
+    width: 100%;
+}
+
+
+.card-image img {
+    width: 100%;
+}
