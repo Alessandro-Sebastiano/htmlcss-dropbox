@@ -146,6 +146,13 @@ p {
 }
 
 
+.try-button {
+    background-color: var(--light);
+    color: var(--dark);
+    padding: 14px 35px;
+}
+
+
 .hero {
     margin-top: 48px;
     background-color: var(--light-blue);
@@ -403,4 +410,59 @@ p {
 .use-info span a {
     color: var(--blue);
     text-decoration: underline;
+}
+
+
+
+
+
+.test-container {
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+.square {
+    max-width: calc(100% / 3);
+    flex-wrap: wrap;
+    border: 1px solid red;
+}
+
+
+
+.logo-square {
+    background-color: #0061ff;
+    max-width: calc(100% / 2);
+    border: 1px solid red;
+}
+
+
+
+.logo-square img {
+    width: 100%;
+}
+
+
+
+.try-section {
+    width: 100%;
+    padding: 80px 0;
+    background-color: var(--light-blue);
+}
+
+
+.try {
+    width: 40%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.try h2 {
+    margin: 0;
+    width: 50%;
 }
