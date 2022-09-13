@@ -12,8 +12,12 @@
     --light-blue: #b4d0e7;
     --blue: #0061ff;
     --gray: #eaeaeb;
+    --dark-gray: #928d90;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 
 body {}
@@ -102,6 +106,7 @@ p {
 .menu-box ul li {
     height: 100%;
     line-height: 48px;
+    padding: 0 10px;
     margin: 0 20px;
 }
 
@@ -119,10 +124,25 @@ p {
 }
 
 
+.hero-button {
+    width: 240px;
+}
+
+
 .small-button {
     display: inline-block;
     height: 30px;
     padding: 6px 14px;
+}
+
+
+.partner-button {
+    width: 160px;
+    background-color: var(--light);
+    border: 1px solid var(--dark-gray);
+    border-bottom: 2px solid var(--dark);
+    border-left: 2px solid var(--dark);
+    color: var(--dark);
 }
 
 
@@ -173,6 +193,7 @@ p {
 
 
 .main-container {
+    position: relative;
     max-width: 1080px;
     margin: 0 auto;
     padding: 120px 30px;
@@ -180,8 +201,20 @@ p {
 
 
 
+#main-link {
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+
 .select {
     margin-bottom: 30px;
+}
+
+
+.select label {
+    margin-right: 30px;
 }
 
 
@@ -214,6 +247,14 @@ p {
 }
 
 
+.plan-price-color {
+    color: var(--dark-gray);
+    position: relative;
+    display: block;
+    margin-top: 10px;
+}
+
+
 
 .plan-content {
     margin: 30px 0;
@@ -223,7 +264,7 @@ p {
 
 .plan-content-item i {
     margin-right: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 
 
@@ -265,6 +306,16 @@ p {
 }
 
 
+.plan-enterprise .plan-container {
+    justify-content: space-between;
+}
+
+
+.plan-enterprise-left {
+    width: 65%;
+}
+
+
 
 .plan-enterprise-left h4 {
     margin-bottom: 40px;
@@ -272,6 +323,32 @@ p {
 
 
 .plan-enterprise-right {
-    width: 40%;
-    padding: 10px 20px;
+    width: 30%;
+    padding: 10px 0;
+}
+
+
+
+
+.partner-box {
+    width: 100%;
+    margin-top: 120px;
+}
+
+
+
+.partner-image {
+    width: 100%;
+}
+
+
+.partner-image img {
+    width: 100%;
+}
+
+
+
+.partner-section {
+    width: 80%;
+    padding: 40px 45px;
 }
