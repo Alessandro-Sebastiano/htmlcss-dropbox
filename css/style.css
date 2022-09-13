@@ -11,6 +11,7 @@
     --dark: #000000;
     --light-blue: #b4d0e7;
     --blue: #0061ff;
+    --gray: #eaeaeb;
 }
 
 
@@ -32,6 +33,19 @@ a {
 h1 {
     font-size: 76px;
     margin-bottom: 30px;
+}
+
+
+
+h2 {
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+
+
+h4 {
+    margin-bottom: 20px;
 }
 
 
@@ -73,32 +87,41 @@ p {
 }
 
 
-
+.menu-box {
+    height: 100%;
+    align-items: center;
+}
 
 
 .menu-box ul {
+    height: 100%;
     align-items: center;
 }
 
 
 .menu-box ul li {
+    height: 100%;
+    line-height: 48px;
     margin: 0 20px;
 }
 
 .menu-box ul li:hover {
-    text-decoration: underline;
+    border-bottom: 1px solid var(--dark);
 }
 
 
 
 .button {
+    text-align: center;
+    color: var(--light);
     background-color: var(--blue);
-    display: inline-block;
     padding: 14px 18px;
 }
 
 
 .small-button {
+    display: inline-block;
+    height: 30px;
     padding: 6px 14px;
 }
 
@@ -152,8 +175,13 @@ p {
 .main-container {
     max-width: 1080px;
     margin: 0 auto;
-    border: 1px solid red;
-    padding: 120px 20px;
+    padding: 120px 30px;
+}
+
+
+
+.select {
+    margin-bottom: 30px;
 }
 
 
@@ -163,14 +191,14 @@ p {
 
 
 .plan {
-    width: calc(100% / 3);
-    border: 1px solid red;
+    max-width: 310px;
+    border: 1px solid var(--gray);
 }
 
 
 .plan-title {
     text-align: center;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid var(--gray);
     padding: 10px 0;
 }
 
@@ -206,7 +234,6 @@ p {
 
 
 .buy .button {
-    display: block;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -214,4 +241,37 @@ p {
 .option a {
     text-decoration: underline;
     color: var(--blue);
+}
+
+
+.feature-item {
+    margin-bottom: 20px;
+}
+
+
+
+.feature-item i {
+    margin-right: 5px;
+    color: var(--blue);
+}
+
+
+
+
+
+.plan-enterprise {
+    margin-top: 40px;
+    border: 1px solid var(--gray);
+}
+
+
+
+.plan-enterprise-left h4 {
+    margin-bottom: 40px;
+}
+
+
+.plan-enterprise-right {
+    width: 40%;
+    padding: 10px 20px;
 }
