@@ -138,22 +138,35 @@ p {
 /*dropdown-menu*/
 .dropdown {
     background-color: var(--light);
+    width: 250px;
     position: absolute;
     top: 48px;
     height: 0px;
     border-radius: 0 0 4px 4px;
     overflow: hidden;
+    justify-content: space-between;
+}
+
+
+.dropdown ul {
+    width: 50%;
 }
 
 .dropdown ul li {
-    text-align: center;
-    margin: 0 30px;
+    text-align: start;
+    margin: 0;
+    padding: 0 10px;
+}
+
+
+.dropdown ul li:hover {
+    border-bottom: 0px solid var(--light);
+    background-color: rgb(146, 141, 144, 0.6);
 }
 
 
 .menu-box ul li:hover .dropdown {
     height: initial;
-    padding: 10px;
 }
 
 
@@ -262,25 +275,6 @@ p {
     font-size: 40px;
     margin-top: 40px;
 }
-
-
-
-.overlay {
-    position: fixed;
-    top: 48px;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: var(--dark);
-    opacity: 0.6;
-    visibility: hidden;
-}
-
-
-.menu-box ul li:hover {
-    visibility: visible;
-}
-
 
 
 
