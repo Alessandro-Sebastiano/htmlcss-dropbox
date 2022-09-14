@@ -80,6 +80,8 @@ p {
 }
 
 
+
+/*navbar*/
 .nav {
     height: 48px;
     width: 100%;
@@ -133,7 +135,7 @@ p {
 }
 
 
-
+/*dropdown-menu*/
 .dropdown {
     background-color: var(--light);
     position: absolute;
@@ -157,7 +159,7 @@ p {
 
 
 
-
+/*buttons-style*/
 .button {
     text-align: center;
     color: var(--light);
@@ -217,6 +219,9 @@ p {
 }
 
 
+
+
+/*hero-image/section*/
 .hero {
     margin-top: 48px;
     background-color: var(--light-blue);
@@ -252,7 +257,7 @@ p {
 }
 
 
-
+/*anchor*/
 .arrow {
     font-size: 40px;
     margin-top: 40px;
@@ -268,17 +273,18 @@ p {
     height: 100vh;
     background-color: var(--dark);
     opacity: 0.6;
-    z-index: 999;
-    display: none;
+    visibility: hidden;
 }
 
 
-.menu-box ul li:hover .overlay {
-    display: block;
+.menu-box ul li:hover {
+    visibility: visible;
 }
 
 
 
+
+/*main*/
 .main-container {
     position: relative;
     max-width: 1080px;
@@ -287,7 +293,7 @@ p {
 }
 
 
-
+/*anchor link*/
 #main-link {
     position: absolute;
     top: 20px;
@@ -305,6 +311,9 @@ p {
 }
 
 
+
+
+/*plan-section*/
 .plan-box {
     justify-content: space-between;
 }
@@ -351,7 +360,8 @@ p {
 
 .plan-content-item i {
     margin-right: 5px;
-    margin-bottom: 35px;
+    height: 45px;
+    margin-bottom: 30px;
 }
 
 
@@ -425,6 +435,8 @@ p {
 
 
 
+
+/*partner-section*/
 .partner-box {
     width: 100%;
     margin-top: 120px;
@@ -450,7 +462,7 @@ p {
 
 
 
-
+/*cards-section*/
 .cards-container {
     width: 100%;
     margin-top: 120px;
@@ -503,8 +515,8 @@ p {
 
 
 
-
-.test-container {
+/*square-section*/
+.square-container {
     width: 100%;
     justify-content: flex-start;
     align-items: stretch;
@@ -555,7 +567,7 @@ p {
     filter: invert(1);
 }
 
-
+/*squares-color*/
 .logo-square-green {
     background-color: var(--green);
 }
@@ -618,7 +630,7 @@ p {
 }
 
 
-
+/*questions-section*/
 .questions-box {
     padding: 30px 0;
     border-top: 1px solid var(--dark-gray);
@@ -644,6 +656,8 @@ p {
     border-bottom: 1px solid var(--dark-gray);
 }
 
+
+/*accordion-animation*/
 .questions-hidden {
     height: 0px;
     overflow: hidden;
@@ -663,7 +677,7 @@ p {
 
 
 
-
+/*footer*/
 .footer {
     background-color: var(--dark);
     color: var(--light);
