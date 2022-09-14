@@ -60,6 +60,8 @@ a {
 
 
 
+
+/*navbar*/
 .navbar {
     width: 100%;
     position: fixed;
@@ -112,7 +114,7 @@ a {
 
 
 
-
+/*sing-up-section*/
 .sing-up-container {
     width: 60%;
     margin: 0 auto;
@@ -153,7 +155,7 @@ a {
 }
 
 
-
+/*input-style*/
 .input-item {
     width: 100%;
     margin: 30px 0px;
@@ -190,7 +192,7 @@ a {
 
 
 
-
+/*sing-up-button*/
 .account-btn {
     position: relative;
     text-align: center;
@@ -221,6 +223,8 @@ a {
 
 
 
+
+/*footer*/
 .footer {
     width: 100%;
 }
